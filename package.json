@@ -1,0 +1,17 @@
+{
+  "name": "netlify-plugin-graphql-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hawyar",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "graphql-request": "2.1.0-next.1",
+    "nodemon": "^2.0.4"
+  }
+}
